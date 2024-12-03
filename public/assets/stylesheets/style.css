@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+body {
+    background-color: #E2F1E7;
+    height: 100vh;
+}
+
+:root {
+    --errors-color: red;
+    --error-weight: 0;
+    --space-divs: 1.4rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-form {
+    width: 45vw;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.7rem;
+}
+
+.contact-form input {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.contact-form h2 {
+    margin-bottom: 1.5rem;
+}
+
+.complete-name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--space-divs);
+}
+
+.complete-name > * {
+    width: 48%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.complete-name input {
+    width: 100%;
+}
+
+.email {
+    display: grid;
+    align-items: center;
+    margin-bottom: var(--space-divs);
+}
+
+.query-type {
+    margin-bottom: var(--space-divs);
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-shell {
+    width: 40%;
+    padding: 0.8rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.input-shell input {
+    height: 0.8rem;
+}
+
+.message {
+    display: grid;
+    margin-bottom: var(--space-divs);
+}
+
+.message textarea {
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    resize: none;
+}
+
+.contacted-by-team input {
+    height: 0.8rem;
+}
+
+.contacted-by-team {
+    display: grid;
+}
+
+.button-submit {
+    background-color: #0C7D69;
+    width: 100%;
+}
+
+
+
+.error {
+    color: var(--errors-color);
+    font-weight: var(--error-weight);
+}

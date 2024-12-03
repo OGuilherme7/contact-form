@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/assets/stylesheets/style.css">
+</head>
+<body>
+
+    <main>
+        <section class="contact-form">
+
+            <h2>Contact Us</h2>
+            <form action="/" method="post">
+                <div class="complete-name">
+                    <div class="first-name">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                        <span class="first-name-error error">Este aqui é o erro!</span>
+                    </div>
+                    <div class="last-name">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                        <span class="last-name-error error">Este aqui é o erro!</span>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email Adress</label>
+                    <input type="text" id="email" name="email">
+                    <span class="email-error error">Este aqui é o erro!</span>
+                </div>
+
+                <div class="query-type">
+                    <label for="query-type">Query Type</label>
+                    <div class="options">
+                        <div class="input-shell">
+                            <label>
+                                <input type="radio" name="query-type" value="general-enquiry"> General Enquiry
+                            </label>
+                        </div>
+                        <div class="input-shell">
+                            <label>
+                                <input type="radio" name="query-type" value="suport-request"> Support Request
+                            </label>
+                        </div>
+                    </div>
+                    <span class="query-type-error error">Este aqui é o erro!</span>
+                </div>
+
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" ></textarea>
+                    <span class="message-error error">Este aqui é o erro!</span>
+                </div>
+
+                <div class="contacted-by-team">
+                    <label>
+                        <input type="checkbox" name="contacted-by-team"> I consent to being contacted by the team
+                    </label>
+                    <span class="contacted-by-team-error error">Este aqui é o erro!</span>
+                </div>
+
+                <input type="submit" value="Submit" class="button-submit">
+            </form>
+
+        </section>
+
+        
+    </main>
+    
+    
+</body>
+</html>
